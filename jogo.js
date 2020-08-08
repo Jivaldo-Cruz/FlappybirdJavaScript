@@ -271,6 +271,7 @@ function criaCanos() {
 
         if(canos.temColisaoComOFlappyBird(par)) {
           console.log('Você perdeu!')
+          alert('DUDU VC EH MT RUIM')
           mudaParaTela(Telas.INICIO);
         }
 
